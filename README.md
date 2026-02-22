@@ -1,30 +1,37 @@
 Project Deaf:
 
-A smart glove that translates sign language into speech.
+Simply a smart glove that translates sign language into speech.
 
 What It Does?
 
-Project Deaf is a wearable system that helps deaf and hard-of-hearing individuals communicate more easily.
+Project Deaf is a wearable eco-system that helps deaf or hard-of-hearing individuals communicate more easily and affordibly and also includes a companion mobile app.
 
 The glove:
 
 Detects finger bends using flex sensors
 Tracks hand movement using a gyroscope & accelerometer
-Recognizes predefined sign language gestures
+Recognizes predefined sign language gestures in an ASL database I created of common words and movments
 Plays the corresponding word through a speaker
 
 I also built:
 
-A small device that converts speech to text (Raspberry Pi + microphone + OLED display)
-A vibration band that converts sound frequencies into haptic feedback so users can feel sound
+A mobile companion app that connects through bluetooth to:
+Configure basic settings
+Have AR visualization capabilities for some words
+Have a written text generated of words by google's translate API
 
 How It Works?
 
 Arduino collects finger and motion data
 Gesture data is validated to avoid false triggers
-Recognized signs trigger audio files stored on an SD card
+Recognized signs trigger audio files stored on an SD card database
 Wireless communication connects both gloves
 FFT is used in the vibration module to split sound into frequency bands
+
+Why does it work?
+
+A small device that converts speech to text (Raspberry Pi + microphone + OLED display)
+A vibration band that converts sound frequencies into haptic feedback so users can feel sound
 
 Tech Used:
 
