@@ -56,3 +56,5 @@ Built with off-the-shelf components
 Total hardware cost: ~$30–$50.
 
 Built as a hardware + embedded systems project focused on accessibility and real-world impact.
+
+Due to a loss of my hardrive in early 2023 and lack of hindsight to use github for archiving at the time the source code is lost but the APKs, portfolio, poster and some testing videos are included
